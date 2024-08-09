@@ -1,0 +1,306 @@
+{%- set _salutation -%}
+	Congratulations {{ subject.firstName }}!!!<br />
+	Welcome to the UC Teacher Pathway.
+{%- endset -%}
+
+{%- set _badgeName = "Teacher Pathway Participation" -%}
+
+{%- set _badgeAwardNarrative -%}
+	This is the start of your journey to becoming
+	a licensed teacher in Kentucky.
+{%- endset -%}
+
+{%- set _badgeImage -%}
+	<img src="cid:badge.png" width="100" />
+{%- endset -%}
+
+{%- set _progressBar -%}
+{%- endset -%}
+
+{%- set _checklistNarrative -%}
+	Below is the "Checklist" of badges you
+	must earn to be invited into the "Option 9" teacher apprenticeship program:
+{%- endset -%}
+
+{%- set _checklist -%}
+	{{ _self.achievementLine('UC Pilot Participation Badge', '', 'https://ky.opensalt.net/uri/a391099e-4f6f-11ef-972d-0242ac1e0003' in context.credentialIds) }}
+	{{ _self.achievementLine('UC Enrollment Complete', '', false) }}
+	{{ _self.achievementLine('Conditionally Admitted (With Option 9)', '', false) }}
+	{{ _self.achievementLine('EDUC 237 - Effective Teaching', '', false) }}
+	{{ _self.achievementLine('Teacher Ed Invited', '', false) }}
+{%- endset -%}
+
+{%- set _closingStatement -%}
+	If you have already applied for enrolment at Cumberland
+	University, you will automatically receive your second
+	badge when complete. If not, please enroll here [Link].
+{%- endset -%}
+
+{#- Main email starts here -#}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+		<title>You have received an award</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+		<style type="text/css">
+			a{outline:none;color:#000;text-decoration:underline;}
+			a:hover{text-decoration:none!important;}
+			.h-u a{text-decoration:none;}
+			.h-u a:hover{text-decoration:underline!important;}
+			a[x-apple-data-detectors]{color:inherit!important; text-decoration:none!important;}
+			a[href^="tel"]:hover{text-decoration:none!important;}
+			.active-i a:hover,
+			.active-t:hover{opacity:0.8;}
+			.active-i a,
+			.active-t{transition:all 0.3s ease;}
+			a img{border:none;}
+			b, strong{font-weight:700;}
+			p{margin:0;}
+			th{padding:0;}
+			table td{mso-line-height-rule:exactly;}
+			.ns span, .ns a{color:inherit!important; text-decoration:none!important; border:none!important;}
+			.l-fff a{color:#fff;}
+			[style*="Montserrat"]{font-family:Montserrat, Arial, Helvetica, sans-serif !important;}
+			@media only screen and (max-width:617px) {
+				.w-100p{width:100%!important;}
+				.tflex{display:block!important;width:100%!important;}
+				.ta-c{text-align:center!important;}
+				.hm{display:none!important;width:0!important;height:0!important;padding:0!important;font-size:0!important;line-height:0!important;}
+				.w-a{width:auto!important;}
+				.h-a{height:auto!important;}
+				.w-15{width:15px!important;}
+				.plr-15{padding-left:15px!important;padding-right:15px!important;}
+				.ptb-40{padding-top:40px!important;padding-bottom:40px!important;}
+				.pt-15p{padding-top:15%!important;}
+				.pb-10p{padding-bottom:10%!important;}
+				.pb-15p{padding-bottom:15%!important;}
+				.fs-28{font-size:28px!important;}
+			}
+			@media (prefers-dark-interface) {body{-apple-color-filter:none;}}
+		</style>
+	</head>
+	<body style="background:#fff; margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+		<table width="100%" style="background:#fff; min-width:320px;" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<table class="w-100p" width="600" align="center" style="background:#fffffe; max-width:600px;" cellpadding="0" cellspacing="0">
+						<tr>
+							<td bgcolor="#014173" background="cid:bg-01.png" style="background-image:url(cid:bg-01.png); background-repeat:no-repeat; background-position:center bottom; background-size:100% 100%;">
+								<!--[if gte mso 9]>
+									<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height:334px;">
+										<v:fill type="frame" src="cid:bg-01.png" color="#014173" />
+										<v:textbox style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+											<![endif]-->
+												<table width="100%" cellpadding="0" cellspacing="0">
+													<tr>
+														<td class="hm" width="20" height="334"></td>
+														<td class="plr-15" valign="top">
+															<table width="100%" cellpadding="0" cellspacing="0">
+																<tr>
+																	<td class="pt-15p pb-15p" style="padding:72px 0 70px;">
+																		<table width="100%" cellpadding="0" cellspacing="0">
+																			<tr>
+																				<td class="hm" width="18"></td>
+																				<td align="center">
+																					<a style="text-decoration:none;" href="https://www.kentucky.gov/">
+																						<img src="cid:logo-01.png" width="240" style="font:700 14px/22px Arial, Helvetica, sans-serif; color:#fff; vertical-align:top;" alt="Kentucky.gov | Learning & Employment Wallet" />
+																					</a>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+																<tr>
+																	<td class="pb-10p fs-28" align="center" style="padding:0 0 20px; font:300 36px/40px Arial, Helvetica, sans-serif, Montserrat; color:#fff;">
+																		{{ _salutation|default('') }}
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td class="hm" width="20"></td>
+													</tr>
+												</table>
+											<!--[if gte mso 9]>
+										</v:textbox>
+									</v:rect>
+								<![endif]-->
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="#F4FBFF" background="cid:bg-02.png" style="background-image:url(cid:bg-02.png); background-repeat:no-repeat; background-position:center top; background-size:100% 100%;">
+								<!--[if gte mso 9]>
+									<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height:333px;">
+										<v:fill type="frame" src="cid:bg-02.png" color="#F4FBFF" />
+										<v:textbox style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+											<![endif]-->
+												<table width="100%" cellpadding="0" cellspacing="0">
+													<tr>
+														<td class="hm" width="52" height="333"></td>
+														<td class="plr-15" valign="top">
+															<table width="100%" cellpadding="0" cellspacing="0">
+																<tr>
+																	<td class="h-a" height="333" style="background:#fffffe; border-radius:20px; position:relative; box-shadow:6px 7px 16px rgba(27, 53, 71, 0.1);">
+																		<table width="100%" cellpadding="0" cellspacing="0">
+																			<tr>
+																				<td class="w-15" width="64"></td>
+																				<td>
+																					<table width="100%" cellpadding="0" cellspacing="0">
+																						<tr>
+																							<td align="center" style="padding:26px 0 18px; font:700 19px/33px Arial, Helvetica, sans-serif, Montserrat; color:#1B3547;">
+																								{{ _badgeName|default('') }}
+																							</td>
+																						</tr>
+																						<tr>
+																							<td align="center" style="">
+																								{{ _badgeAwardNarrative|default('') }}
+																							</td>
+																						</tr>
+																						<tr>
+																							<td align="center" style="padding: 18px 0;">
+																								{{ _badgeImage|default('') }}
+																							</td>
+																						</tr>
+																						{{ _progressBar|default('') }}
+																					</table>
+																				</td>
+																				<td class="w-15" width="64"></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td class="hm" width="52"></td>
+													</tr>
+												</table>
+											<!--[if gte mso 9]>
+										</v:textbox>
+									</v:rect>
+								<![endif]-->
+							</td>
+						</tr>
+						<tr>
+							<td class="ptb-40 plr-15" style="padding:55px 116px 65px; background:#F4FBFF;">
+								<table class="w-a" width="100%" align="center" cellpadding="0" cellspacing="0">
+									<tr>
+										<td align="center" style="padding:0 0 29px; font:700 18px/24px Arial, Helvetica, sans-serif, Montserrat; color:#1B3547;">
+											{{ _checklistNarrative|default('') }}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<table width="100%" cellpadding="0" cellspacing="0">
+												{{ _checklist|default('') }}
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td align="center" style="padding:20px 0 29px; font:700 14px/20px Arial, Helvetica, sans-serif, Montserrat; color:#1B3547;">
+											{{ _closingStatement|default('') }}
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- buttons -->
+						<tr>
+							<td style="padding:0 15px 47px; background:#F4FBFF;">
+								<table align="center" cellpadding="0" cellspacing="0">
+									<tr>
+										<th class="tflex" width="128" align="left" style="vertical-align:top;"></th>
+										<th class="tflex" width="234" align="left" style="vertical-align:top;">
+											<table width="234" align="center" cellpadding="0" cellspacing="0">
+												<tr>
+													<td class="active-t" align="center" style="background:#4B84B7; mso-padding-alt:11px 8px; font:700 20px/22px Arial, Helvetica, sans-serif, Montserrat; border-radius:8px;">
+														<a style="color:#fff; text-decoration:none; display:block; padding:11px 8px;" href="https://ky-ler-qa.randasolutions.com/?email={{ subject.email }}">Login to Wallet to accept badge</a>
+													</td>
+												</tr>
+											</table>
+										</th>
+										<th class="tflex" width="128" height="22"></th>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<!-- footer -->
+						<tr>
+							<td class="plr-15" style="padding:21px 52px 21px 50px;">
+								<table width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<th class="tflex" width="240" align="left" style="vertical-align:top;">
+											<table width="100%" cellpadding="0" cellspacing="0">
+												<tr>
+													<td align="left" class="ta-c" style="vertical-align:middle;">
+														<img src="cid:logo-02.png" width="42" style="vertical-align:top;" alt="KY stats" />
+														<span style="font:12px/14px Arial, Helvetica, sans-serif, Montserrat; color:#1B3547;line-height:42px;">Powered by PCG and Level Data</span>
+													</td>
+												</tr>
+											</table>
+										</th>
+										<th class="tflex" width="20" height="15"></th>
+										<th class="tflex" align="left">
+											<table width="100%" cellpadding="0" cellspacing="0">
+												<tr>
+													<td class="ta-c" align="right" style="font:12px/14px Arial, Helvetica, sans-serif, Montserrat; color:#1B3547;">
+														© 2024 Learning & Employment Wallet
+													</td>
+												</tr>
+											</table>
+										</th>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="hm" style="line-height:0;"><div style="white-space:nowrap; font:15px/0 courier;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></td>
+			</tr>
+		</table>
+	</body>
+</html>
+{#- Main email ends here -#}
+
+{%- macro achievementLine(title, link = '', checked = true) -%}
+	<tr>
+		<td width="34" valign="top" style="padding:0 0 10px;">
+			<img src="{% if checked %}cid:ico-01.png{% else %}cid:ico-02.png{% endif %}" width="34" style="vertical-align:top;" alt="{% if checked %}x{% else %} {% endif %}" />
+		</td>
+		<td width="8" style="padding:0 0 10px;"></td>
+		<td valign="top" style="padding:0 0 10px; font:16px/21px Arial, Helvetica, sans-serif, Montserrat; color:#1B3547;">
+			<p style="margin:5px 0 0;">
+				{% if link %}<a href="{{ link }}">{% endif -%}
+				{{ title }}
+				{%- if link %}</a>{% endif %}
+			</p>
+		</td>
+	</tr>
+{%- endmacro achievementLine -%}
+
+{%- macro progressBar(text, amount = 1) -%}
+	<tr>
+		<td style="padding:0 0 4px;">
+			<table width="100%" style="background:#DBE3ED; border-radius:8px; overflow:hidden;" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<!-- green line percentage -->
+						<table width="{{ amount }}%" style="background:#99CC66;" cellpadding="0" cellspacing="0">
+							<tr>
+								<td height="27" style="font-size:1px; line-height:1px;">&nbsp;</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding:0 0 20px; font:700 16px/33px Arial, Helvetica, sans-serif, Montserrat; color:#99CC66;">
+			{{ text }}
+		</td>
+	</tr>
+{%- endmacro progressBar -%}
